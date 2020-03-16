@@ -13,6 +13,15 @@
 		38F4452E241EDCAF00D17F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F4452C241EDCAF00D17F8D /* Main.storyboard */; };
 		38F44530241EDCB300D17F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38F4452F241EDCB300D17F8D /* Assets.xcassets */; };
 		38F44533241EDCB300D17F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F44531241EDCB300D17F8D /* LaunchScreen.storyboard */; };
+		38F4453B241EF58200D17F8D /* SimpleSuiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4453A241EF58200D17F8D /* SimpleSuiteViewController.swift */; };
+		38F4453E241F016200D17F8D /* ARSuiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4453D241F016200D17F8D /* ARSuiteViewController.swift */; };
+		38F44549241F030600D17F8D /* TwoDAppDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F44548241F030600D17F8D /* TwoDAppDetailVC.swift */; };
+		38F4454B241F031D00D17F8D /* ThreeDAppDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4454A241F031D00D17F8D /* ThreeDAppDetailVC.swift */; };
+		38F4454D241F091C00D17F8D /* AILockScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4454C241F091C00D17F8D /* AILockScreenViewController.swift */; };
+		38F44551241F152400D17F8D /* SimpleSuite Scene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 38F44550241F152400D17F8D /* SimpleSuite Scene.scn */; };
+		38F44556241F167700D17F8D /* ThreeDDetail Scene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 38F44555241F167700D17F8D /* ThreeDDetail Scene.scn */; };
+		38F44559241F171700D17F8D /* AILockScreen Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 38F44558241F171700D17F8D /* AILockScreen Scene.sks */; };
+		38F4455F241F1DFC00D17F8D /* MiniApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38F4455D241F1DFC00D17F8D /* MiniApp.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,16 @@
 		38F4452F241EDCB300D17F8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38F44532241EDCB300D17F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38F44534241EDCB300D17F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38F4453A241EF58200D17F8D /* SimpleSuiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSuiteViewController.swift; sourceTree = "<group>"; };
+		38F4453D241F016200D17F8D /* ARSuiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSuiteViewController.swift; sourceTree = "<group>"; };
+		38F44548241F030600D17F8D /* TwoDAppDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoDAppDetailVC.swift; sourceTree = "<group>"; };
+		38F4454A241F031D00D17F8D /* ThreeDAppDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDAppDetailVC.swift; sourceTree = "<group>"; };
+		38F4454C241F091C00D17F8D /* AILockScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AILockScreenViewController.swift; sourceTree = "<group>"; };
+		38F44550241F152400D17F8D /* SimpleSuite Scene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "SimpleSuite Scene.scn"; sourceTree = "<group>"; };
+		38F44554241F15BE00D17F8D /* ARSuite Project.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = "ARSuite Project.rcproject"; sourceTree = "<group>"; };
+		38F44555241F167700D17F8D /* ThreeDDetail Scene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "ThreeDDetail Scene.scn"; sourceTree = "<group>"; };
+		38F44558241F171700D17F8D /* AILockScreen Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "AILockScreen Scene.sks"; sourceTree = "<group>"; };
+		38F4455E241F1DFC00D17F8D /* MiniApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MiniApp.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +75,89 @@
 		38F44525241EDCAF00D17F8D /* AppSuite2020 */ = {
 			isa = PBXGroup;
 			children = (
-				38F44526241EDCAF00D17F8D /* AppDelegate.swift */,
-				38F44528241EDCAF00D17F8D /* ViewController.swift */,
-				38F4452A241EDCAF00D17F8D /* Experience.rcproject */,
-				38F4452C241EDCAF00D17F8D /* Main.storyboard */,
-				38F4452F241EDCB300D17F8D /* Assets.xcassets */,
-				38F44531241EDCB300D17F8D /* LaunchScreen.storyboard */,
-				38F44534241EDCB300D17F8D /* Info.plist */,
+				38F44540241F019F00D17F8D /* Delegate */,
+				38F4453F241F018D00D17F8D /* ViewControllers */,
+				38F44557241F168F00D17F8D /* Scenes */,
+				38F4455B241F186800D17F8D /* ModelController */,
+				38F4455A241F185E00D17F8D /* Model */,
+				38F4455C241F197200D17F8D /* View */,
+				38F44542241F01D200D17F8D /* Storyboards */,
+				38F44541241F01C300D17F8D /* Resources */,
 			);
 			path = AppSuite2020;
+			sourceTree = "<group>";
+		};
+		38F4453F241F018D00D17F8D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				38F4454C241F091C00D17F8D /* AILockScreenViewController.swift */,
+				38F4453A241EF58200D17F8D /* SimpleSuiteViewController.swift */,
+				38F4453D241F016200D17F8D /* ARSuiteViewController.swift */,
+				38F44548241F030600D17F8D /* TwoDAppDetailVC.swift */,
+				38F4454A241F031D00D17F8D /* ThreeDAppDetailVC.swift */,
+				38F44528241EDCAF00D17F8D /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		38F44540241F019F00D17F8D /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				38F44526241EDCAF00D17F8D /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		38F44541241F01C300D17F8D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38F4452F241EDCB300D17F8D /* Assets.xcassets */,
+				38F44534241EDCB300D17F8D /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		38F44542241F01D200D17F8D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				38F4452C241EDCAF00D17F8D /* Main.storyboard */,
+				38F44531241EDCB300D17F8D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		38F44557241F168F00D17F8D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				38F44558241F171700D17F8D /* AILockScreen Scene.sks */,
+				38F44550241F152400D17F8D /* SimpleSuite Scene.scn */,
+				38F44554241F15BE00D17F8D /* ARSuite Project.rcproject */,
+				38F44555241F167700D17F8D /* ThreeDDetail Scene.scn */,
+				38F4452A241EDCAF00D17F8D /* Experience.rcproject */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		38F4455A241F185E00D17F8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38F4455D241F1DFC00D17F8D /* MiniApp.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38F4455B241F186800D17F8D /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		38F4455C241F197200D17F8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +219,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				38F44533241EDCB300D17F8D /* LaunchScreen.storyboard in Resources */,
+				38F44556241F167700D17F8D /* ThreeDDetail Scene.scn in Resources */,
+				38F44559241F171700D17F8D /* AILockScreen Scene.sks in Resources */,
 				38F44530241EDCB300D17F8D /* Assets.xcassets in Resources */,
 				38F4452E241EDCAF00D17F8D /* Main.storyboard in Resources */,
+				38F44551241F152400D17F8D /* SimpleSuite Scene.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +235,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				38F44529241EDCAF00D17F8D /* ViewController.swift in Sources */,
+				38F4453B241EF58200D17F8D /* SimpleSuiteViewController.swift in Sources */,
+				38F4454D241F091C00D17F8D /* AILockScreenViewController.swift in Sources */,
+				38F4453E241F016200D17F8D /* ARSuiteViewController.swift in Sources */,
+				38F4455F241F1DFC00D17F8D /* MiniApp.xcdatamodeld in Sources */,
+				38F4454B241F031D00D17F8D /* ThreeDAppDetailVC.swift in Sources */,
+				38F44549241F030600D17F8D /* TwoDAppDetailVC.swift in Sources */,
 				38F44527241EDCAF00D17F8D /* AppDelegate.swift in Sources */,
 				38F4452B241EDCAF00D17F8D /* Experience.rcproject in Sources */,
 			);
@@ -338,6 +440,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38F4455D241F1DFC00D17F8D /* MiniApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38F4455E241F1DFC00D17F8D /* MiniApp.xcdatamodel */,
+			);
+			currentVersion = 38F4455E241F1DFC00D17F8D /* MiniApp.xcdatamodel */;
+			path = MiniApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 38F4451B241EDCAF00D17F8D /* Project object */;
 }
